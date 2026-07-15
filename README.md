@@ -155,15 +155,8 @@ correlsoc/
 - [ ] Pluggable connectors for common SIEM/log sources
 - [ ] Analyst feedback loop to fine-tune severity scoring over time
 
-## Team
 
-| Name | Role |
-|---|---|
-| Madhumitha K | Cloud Security Intern |
 
 
 ---
 
-<div align="center">
-  <sub>Built for [hackathon/event name] — CorrelSOC, 2026.</sub>
-</div>
