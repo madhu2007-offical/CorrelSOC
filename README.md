@@ -118,7 +118,23 @@ CorrelSOC/
    ```
    python eval/evaluate.py
    ```
+---
 
+## Deploy to Streamlit Cloud
+
+1. Push the repo to GitHub.
+2. Go to https://streamlit.io/cloud and sign in with GitHub.
+3. Choose this repository.
+4. Set the app file to:
+   ```
+   streamlit_app.py
+   ```
+5. Set the Python version to match your project (e.g. 3.13).
+6. Add a secret named `ANTHROPIC_API_KEY` in Streamlit Cloud if you want the agents to call Anthropic.
+
+Once deployed, Streamlit Cloud will provide a permanent public URL such as:
+
+- `https://<your-app-name>.streamlit.app`
 7. **Launch the dashboard**
    ```
    streamlit run dashboard/app.py
