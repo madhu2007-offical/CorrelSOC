@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CorrelSOC Vercel Demo</title>
+    <style>
+      body { font-family: sans-serif; margin: 0; padding: 24px; background: #f4f6fb; color: #111; }
+      button { padding: 12px 20px; border: none; border-radius: 8px; background: #2563eb; color: white; cursor: pointer; }
+      button:hover { background: #1d4ed8; }
+      pre { background: #111827; color: #d1d5db; padding: 16px; border-radius: 12px; max-height: 70vh; overflow: auto; }
+      h1, h2 { margin-bottom: 0.5rem; }
+      .panel { margin-top: 24px; }
+    </style>
+  </head>
+  <body>
+    <h1>CorrelSOC Vercel Demo</h1>
+    <p>Press the button to execute the pipeline and show the JSON results from the deployed API.</p>
+    <button id="runBtn">Run pipeline</button>
+    <div class="panel">
+      <h2>Output</h2>
+      <pre id="output">Click run to execute the pipeline.</pre>
+    </div>
+    <script>
+      const button = document.getElementById('runBtn');
+      const output = document.getElementById('output');
+
+      button.addEventListener('click', async () => {
+        output.textContent = 'Running...';
+        try {
+          const response = await fetch('/api/run');
+          const data = await response.json();
+          output.textContent = JSON.stringify(data, null, 2);
+        } catch (error) {
+          output.textContent = `Error: ${error.message}`;
+        }
+      });
+    </script>
+  </body>
+</html>
