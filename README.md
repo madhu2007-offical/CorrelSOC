@@ -1,143 +1,182 @@
-<div align="center"> <img src="assets/<img width="1983" height="793" alt="ChatGPT Image Jul 15, 2026, 04_19_16 PM" src="https://github.com/user-attachments/assets/e7e7c1c0-f39b-41fb-9977-7855c00a4eaf" />
-" alt="CorrelSOC banner" width="100%" />
-CorrelSOC
-Multi-agent SIEM pipeline that correlates security events and generates AI-driven incident triage and remediation reports.
+<div align="center">
+  <img width="1536" height="548" alt="CorrelSOC banner" src="assets/banner.png" />
+  <br/>
 
-<p> <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/Claude-Sonnet_4.6-D4A574?style=for-the-badge&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-Data-150458?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Pydantic-Schema-E92063?style=for-the-badge&logo=pydantic&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-Eval-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" /> <img src="https://img.shields.io/badge/Plotly-Charts-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" /> </p> <p> <img src="https://img.shields.io/badge/status-in%20development-2DD4BF?style=flat-square" /> <img src="https://img.shields.io/badge/license-MIT-4C5A6B?style=flat-square" /> <img src="https://img.shields.io/badge/HCIC--SI2026-project-E5484D?style=flat-square" /> </p> </div>
-CorrelSOC is an autonomous incident-response pipeline that turns raw, noisy security logs into prioritized, explainable incidents. A deterministic correlation engine groups related events by time and source, then a three-stage agentic reasoning core (Triage → Correlation → Response) maps them to MITRE ATT&CK techniques, assigns severity, and generates a remediation playbook — all visible in a live dashboard.
+  ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+  ![Claude](https://img.shields.io/badge/Claude-Agentic%20Core-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+  ![Pandas](https://img.shields.io/badge/Pandas-Data%20Layer-150458?style=for-the-badge&logo=pandas&logoColor=white)
+  ![Pydantic](https://img.shields.io/badge/Pydantic-Validation-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+  ![scikit--learn](https://img.shields.io/badge/scikit--learn-Correlation-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+  ![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-Problem
-SOC teams are overwhelmed by high volumes of raw security events with no built-in correlation, making it difficult to distinguish isolated noise from coordinated multi-stage attacks in real time.
+  <h3>Multi-agent AI correlation engine for SOC alert triage</h3>
+  <p><i>Turning thousands of raw security events into a handful of decisions an analyst can actually act on.</i></p>
 
-Solution
-CorrelSOC combines a deterministic pre-filtering/correlation engine with a three-agent LLM reasoning pipeline:
+  <p>
+    <a href="#the-problem">Problem</a> •
+    <a href="#the-gap">Gap</a> •
+    <a href="#key-innovation">Key Innovation</a> •
+    <a href="#architecture">Architecture</a> •
+    <a href="#detection-capabilities">Detection</a> •
+    <a href="#quickstart">Quickstart</a> •
+    <a href="#demo">Demo</a> •
+    <a href="#scope--limitations">Scope</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#roadmap">Roadmap</a> •
+    <a href="#team">Team</a>
+  </p>
+</div>
 
-Agent	Role
-Triage Agent	Classifies severity, maps events to MITRE ATT&CK techniques
-Correlation Agent	Detects multi-stage attack chains across related incidents
-Response Agent	Generates remediation playbooks (immediate actions, investigation steps, long-term fixes)
-Results are surfaced through a live Streamlit dashboard that shows the full reasoning trail behind every incident.
+---
 
-Architecture
-<div align="center"> <img src="assets/architecture.png" alt="CorrelSOC architecture diagram" width="85%" /> </div>
+## The Problem
 
-Log Sources (synthetic)
-      |
-      v
-Layer 1 -- Ingestion & Normalization
-      |
-      v
-Layer 2 -- Deterministic Correlation Engine (time-window + statistical rules)
-      |
-      v
-Layer 3 -- Agentic Reasoning Core
-   |-- Triage Agent (severity + ATT&CK mapping)
-   |-- Correlation Agent (multi-stage attack chain detection)
-   `-- Response Agent (remediation playbook)
-      |
-      v
-Layer 4 -- Evaluation (precision / recall / latency)
-      |
-      v
-Layer 5 -- Dashboard (live incidents + reasoning trail)
-Full diagram source: docs/architecture.md
+Modern SOCs are drowning in volume, not blind to threats. A mid-size security team can face **thousands of raw log events and alerts per day** across SIEM, EDR, and network tooling — the vast majority low-signal, duplicative, or false positives. Analysts spend most of their time triaging noise instead of investigating real incidents, and alert fatigue causes genuine threats to get missed or delayed.
 
-Project Structure
+Existing correlation rules are static, brittle, and written for yesterday's attack patterns. They don't reason about *why* a cluster of events matters — they just pattern-match on fixed thresholds.
 
-CorrelSOC/
-|-- assets/               # Banner, architecture image, screenshots
-|   |-- banner.png
-|   `-- architecture.png
-|-- data/                  # Log generation and sample data
-|   |-- log_generator.py
-|   `-- sample_logs.json
-|-- correlation/            # Deterministic correlation engine (Layer 2)
-|   `-- correlator.py
-|-- agents/                 # Agentic reasoning core (Layer 3)
-|   |-- triage_agent.py
-|   |-- correlation_agent.py
-|   |-- response_agent.py
-|   `-- pipeline.py
-|-- eval/                   # Evaluation harness (Layer 4)
-|   |-- labeled_events.json
-|   `-- evaluate.py
-|-- dashboard/               # Streamlit dashboard (Layer 5)
-|   `-- app.py
-|-- docs/
-|   |-- architecture.md
-|   `-- research_log.md
-|-- requirements.txt
-|-- .env.example
-`-- README.md
-Setup
-1. Clone the repo
+## The Gap
 
+Most "AI for SOC" tooling today falls into one of two buckets:
 
-bash
-git clone <your-repo-url>
-cd CorrelSOC
-2. Create a virtual environment and install dependencies
+- **Single black-box LLM calls** that summarize alerts but don't reason step-by-step, can't explain their severity scoring, and don't cooperate with each other.
+- **Rule-based correlation engines** that are fast and explainable but can't adapt to novel attack chains or unseen log formats.
 
+Nobody is combining **structured, multi-stage agentic reasoning** with the transparency a SOC analyst actually needs to trust and act on a verdict.
 
-bash
-python -m venv venv
-venv\Scripts\activate        # Windows
+## Key Innovation
+
+CorrelSOC replaces the single black-box call with **three cooperating agents** that each own one stage of the reasoning process:
+
+| Agent | Role |
+|---|---|
+| **Triage Agent** | Normalizes and scores incoming events, filters obvious noise |
+| **Correlation Agent** | Groups related events into candidate incidents across time/source/entity |
+| **Response Agent** | Reasons over each candidate incident, assigns severity, and drafts a recommended action |
+
+This makes the reasoning **inspectable at every stage** — you can see *why* an incident was flagged, not just that it was — which is the difference between a tool analysts rubber-stamp and one they actually trust.
+
+## Architecture
+
+<div align="center">
+  <img width="900" alt="CorrelSOC architecture" src="assets/"C:\Users\madhu\Downloads\c076cae6-d0fc-4176-a8d5-a433bf289208.png"" />
+</div>
+
+```mermaid
+flowchart TD
+    A[Raw Security Log Events] --> B[Normalization Layer]
+    B --> C[Correlation & Grouping]
+    C --> D{Agentic Reasoning Core}
+    D --> D1[Triage Agent]
+    D --> D2[Correlation Agent]
+    D --> D3[Response Agent]
+    D1 --> E[Dashboard / Output]
+    D2 --> E
+    D3 --> E
+```
+
+Five layers, top to bottom: raw events are normalized, correlated into candidate incident clusters, reasoned over by the three-agent core in parallel, and converged into a single ranked view on the dashboard.
+
+## Detection Capabilities
+
+| Category | Example Patterns Detected | Status |
+|---|---|---|
+| Brute-force / credential attacks | Repeated auth failures, password-spray patterns | ✅ Implemented |
+| Lateral movement | Unusual host-to-host access chains | ✅ Implemented |
+| Data exfiltration signals | Abnormal outbound volume/timing | 🔄 In progress |
+| Privilege escalation | Sudden permission/role changes | 🔄 In progress |
+| Living-off-the-land techniques | Legitimate tool misuse (e.g., PowerShell chains) | 🧪 Experimental |
+| Insider-threat heuristics | Atypical access-time/location combinations | 📋 Planned |
+
+> ⚠️ *Fill in with your actual eval results once the eval pipeline is fixed — don't ship placeholder numbers as if they're real.*
+
+## Quickstart
+
+```bash
+# Clone the repo
+git clone https://github.com/<your-org>/correlsoc.git
+cd correlsoc
+
+# Install dependencies
 pip install -r requirements.txt
-3. Add your API key
+
+# Set your API key
+export ANTHROPIC_API_KEY="your-key-here"
+
+# Run the dashboard
+streamlit run app.py
+```
+
+The dashboard will be available at `http://localhost:8501`.
+
+## Demo
+
+<div align="center">
+  <img width="900" alt="CorrelSOC dashboard demo" src="assets/demo.gif" />
+</div>
+
+> Add a short screen-recording GIF or link to a hosted demo video here.
+
+## Scope & Limitations
+
+- Currently tuned for structured log formats (JSON/syslog); unstructured free-text logs need a custom parser.
+- Agents run sequentially per batch, not yet streaming — real-time ingestion is on the roadmap.
+- Severity scoring is calibrated on the sample dataset used during development; production deployments should re-calibrate thresholds against their own baseline traffic.
+- Not a replacement for a full SIEM — CorrelSOC sits on top of existing log sources as a correlation/triage layer.
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Agentic reasoning | Claude (Anthropic API) |
+| Dashboard / UI | Streamlit, Plotly |
+| Data processing | Pandas, NumPy |
+| Validation / schemas | Pydantic |
+| Correlation / ML | scikit-learn |
+| Language | Python 3.11 |
+
+## Project Structure
+
+```
+correlsoc/
+├── app.py                  # Streamlit dashboard entry point
+├── agents/
+│   ├── triage_agent.py
+│   ├── correlation_agent.py
+│   └── response_agent.py
+├── pipeline/
+│   ├── normalize.py
+│   └── correlate.py
+├── data/
+│   └── sample_logs/
+├── assets/
+│   ├── banner.png
+│   ├── architecture.png
+│   └── demo.gif
+├── docs/
+│   └── architecture.md
+├── requirements.txt
+└── README.md
+```
+
+## Roadmap
+
+- [ ] Fix and finalize evaluation pipeline (real precision/recall numbers)
+- [ ] Real-time / streaming ingestion
+- [ ] Data-exfiltration and privilege-escalation detection out of experimental
+- [ ] Pluggable connectors for common SIEM/log sources
+- [ ] Analyst feedback loop to fine-tune severity scoring over time
+
+## Team
+
+| Name | Role |
+|---|---|
+| Madhumitha K | Cloud Security Intern |
 
 
-bash
-copy .env.example .env
-Open .env and add your Anthropic API key:
+---
 
-
-ANTHROPIC_API_KEY=sk-ant-your-key-here
-Get a key from platform.claude.com -> API Keys. Never commit .env -- it's already in .gitignore.
-
-4. Generate sample logs
-
-
-bash
-python data/log_generator.py
-5. Run the full pipeline
-
-
-bash
-python agents/pipeline.py
-6. Run evaluation
-
-
-bash
-python eval/evaluate.py
-7. Launch the dashboard
-
-
-bash
-streamlit run dashboard/app.py
-Performance
-(Fill in after running eval/evaluate.py)
-
-Metric	Value
-Precision	--
-Recall	--
-F1 Score	--
-False Positive Rate	--
-Avg. Latency per Incident	--
-Tech Stack
-<div align="center"> <p> <img src="https://img.shields.io/badge/Language-Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/AI_Reasoning-Claude_API-D4A574?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> </p> <p> <img src="https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Synthetic_Data-Faker-6E56CF?style=flat-square" /> <img src="https://img.shields.io/badge/Validation-Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" /> </p> <p> <img src="https://img.shields.io/badge/Evaluation-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" /> <img src="https://img.shields.io/badge/Visualization-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" /> <img src="https://img.shields.io/badge/Framework-MITRE_ATT%26CK-E5484D?style=flat-square" /> </p> </div>
-Layer	Technology	Purpose
-Language	Python 3.11+	Core implementation
-Agentic reasoning	Claude API (Anthropic SDK)	Triage, correlation, and response agents
-Data handling	pandas, faker	Log generation, event manipulation
-Schema validation	pydantic	Enforces structured JSON between pipeline stages
-Evaluation	scikit-learn	Precision, recall, F1, false-positive rate
-Dashboard	Streamlit, Plotly	Live incident console and charts
-Threat framework	MITRE ATT&CK	Technique mapping for triage
-References
-MITRE ATT&CK Framework: https://attack.mitre.org/
-Full citation log: docs/research_log.md
-Status
-In active development -- built for HCIC-SI2026.
-
-License
-MIT
+<div align="center">
+  <sub>Built for [hackathon/event name] — CorrelSOC, 2026.</sub>
+</div>
