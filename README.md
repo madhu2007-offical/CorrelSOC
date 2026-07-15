@@ -63,7 +63,8 @@ This makes the reasoning **inspectable at every stage** — you can see *why* an
 ## Architecture
 
 <div align="center">
-  <img width="900" alt="CorrelSOC architecture" src="assets/"<img width="1536" height="1024" alt="c076cae6-d0fc-4176-a8d5-a433bf289208" src="https://github.com/user-attachments/assets/094a748d-a2cf-41a0-8f74-5e8fd0a36d56" />
+ <img width="1983" height="793" alt="banner" src="<img width="1536" height="1024" alt="c076cae6-d0fc-4176-a8d5-a433bf289208" src="https://github.com/user-attachments/assets/6f65c67a-06d4-420a-9f9b-b316a18e8b25" />
+
 
 </div>
 
