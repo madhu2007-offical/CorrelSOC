@@ -1,5 +1,8 @@
 <div align="center">
-  <img width="1536" height="548" alt="CorrelSOC banner" src="assets/<img width="1983" height="793" alt="banner" src="https://github.com/user-attachments/assets/a6750cf1-fceb-4123-863c-744549a81829" 
+
+<img width="1536" height="548" alt="poster" src="<img width="1983" height="793" alt="banner" src="https://github.com/user-attachments/assets/ae942230-7c34-4973-98ae-b30da87d5241" 
+ />
+
 
   <br/>
 
