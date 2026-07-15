@@ -1,5 +1,7 @@
 # CorrelSOC
 
+Multi-agent SIEM pipeline that correlates security events and generates AI-driven incident triage and remediation reports.
+
 CorrelSOC is an autonomous incident-response pipeline that turns raw, noisy security logs into prioritized, explainable incidents. A deterministic correlation engine groups related events by time and source, then a three-stage agentic reasoning core (Triage -> Correlation -> Response) maps them to MITRE ATT&CK techniques, assigns severity, and generates a remediation playbook, all visible in a live dashboard.
 
 ## Project Setup
