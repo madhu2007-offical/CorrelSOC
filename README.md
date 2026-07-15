@@ -62,11 +62,9 @@ This makes the reasoning **inspectable at every stage** — you can see *why* an
 
 ## Architecture
 
-<div align="center">
- <img width="1983" height="793" alt="banner" src="<img width="1536" height="1024" alt="c076cae6-d0fc-4176-a8d5-a433bf289208" src="https://github.com/user-attachments/assets/6f65c67a-06d4-420a-9f9b-b316a18e8b25" />
 
 
-</div>
+
 
 ```mermaid
 flowchart TD
