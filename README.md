@@ -1,5 +1,5 @@
 <div align="center">
- src="<img width="1983" height="793" alt="banner" src="https://github.com/user-attachments/assets/ae942230-7c34-4973-98ae-b30da87d5241" 
+ <img width="1983" height="793" alt="banner" src="https://github.com/user-attachments/assets/ae942230-7c34-4973-98ae-b30da87d5241" 
  />
 
 
@@ -63,7 +63,8 @@ This makes the reasoning **inspectable at every stage** — you can see *why* an
 ## Architecture
 
 <div align="center">
-  <img width="900" alt="CorrelSOC architecture" src="assets/"C:\Users\madhu\Downloads\c076cae6-d0fc-4176-a8d5-a433bf289208.png"" />
+  <img width="900" alt="CorrelSOC architecture" src="assets/"<img width="1536" height="1024" alt="c076cae6-d0fc-4176-a8d5-a433bf289208" src="https://github.com/user-attachments/assets/094a748d-a2cf-41a0-8f74-5e8fd0a36d56" />
+
 </div>
 
 ```mermaid
