@@ -16,19 +16,7 @@
   <h3>Multi-agent AI correlation engine for SOC alert triage</h3>
   <p><i>Turning thousands of raw security events into a handful of decisions an analyst can actually act on.</i></p>
 
-  <p>
-    <a href="#the-problem">Problem</a> •
-    <a href="#the-gap">Gap</a> •
-    <a href="#key-innovation">Key Innovation</a> •
-    <a href="#architecture">Architecture</a> •
-    <a href="#detection-capabilities">Detection</a> •
-    <a href="#quickstart">Quickstart</a> •
-    <a href="#demo">Demo</a> •
-    <a href="#scope--limitations">Scope</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#roadmap">Roadmap</a> •
-    <a href="#team">Team</a>
-  </p>
+ 
 </div>
 
 ---
@@ -85,20 +73,20 @@ Five layers, top to bottom: raw events are normalized, correlated into candidate
 
 | Category | Example Patterns Detected | Status |
 |---|---|---|
-| Brute-force / credential attacks | Repeated auth failures, password-spray patterns | ✅ Implemented |
-| Lateral movement | Unusual host-to-host access chains | ✅ Implemented |
-| Data exfiltration signals | Abnormal outbound volume/timing | 🔄 In progress |
-| Privilege escalation | Sudden permission/role changes | 🔄 In progress |
-| Living-off-the-land techniques | Legitimate tool misuse (e.g., PowerShell chains) | 🧪 Experimental |
-| Insider-threat heuristics | Atypical access-time/location combinations | 📋 Planned |
+| Brute-force / credential attacks | Repeated auth failures, password-spray patterns |  Implemented |
+| Lateral movement | Unusual host-to-host access chains |  Implemented |
+| Data exfiltration signals | Abnormal outbound volume/timing | In progress |
+| Privilege escalation | Sudden permission/role changes |  In progress |
+| Living-off-the-land techniques | Legitimate tool misuse (e.g., PowerShell chains) |  Experimental |
+| Insider-threat heuristics | Atypical access-time/location combinations |  Planned |
 
-> ⚠️ *Fill in with your actual eval results once the eval pipeline is fixed — don't ship placeholder numbers as if they're real.*
+
 
 ## Quickstart
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-org>/correlsoc.git
+git clone [https://github.com/<your-org>/correlsoc.git](https://github.com/madhu2007-offical/CorrelSOC)
 cd correlsoc
 
 # Install dependencies
@@ -114,12 +102,8 @@ streamlit run app.py
 The dashboard will be available at `http://localhost:8501`.
 
 ## Demo
+https://correlsoc-5mmzxgukp6m95vfspd2f6i.streamlit.app/ 
 
-<div align="center">
-  <img width="900" alt="CorrelSOC dashboard demo" src="assets/demo.gif" />
-</div>
-
-> Add a short screen-recording GIF or link to a hosted demo video here.
 
 ## Scope & Limitations
 
