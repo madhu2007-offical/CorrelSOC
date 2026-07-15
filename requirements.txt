@@ -1,0 +1,8 @@
+anthropic
+pandas
+pydantic
+streamlit
+scikit-learn
+plotly
+faker
+python-dotenv

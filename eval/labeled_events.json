@@ -1,0 +1,98 @@
+[
+  {
+    "incident_id": "incident_1",
+    "label": "brute_force",
+    "severity": "High",
+    "source_ip": "203.0.113.45",
+    "user": "alice",
+    "events": [
+      {
+        "timestamp": "2026-07-15T00:00:00Z",
+        "source_ip": "203.0.113.45",
+        "dest_ip": "10.0.0.2",
+        "user": "alice",
+        "event_type": "login",
+        "status": "failure",
+        "asset": "web-server-1",
+        "raw_message": "Failed login attempt for alice on web-server-1 from 203.0.113.45"
+      }
+    ]
+  },
+  {
+    "incident_id": "incident_2",
+    "label": "port_scan",
+    "severity": "Medium",
+    "source_ip": "198.51.100.27",
+    "user": "unknown",
+    "events": [
+      {
+        "timestamp": "2026-07-15T00:05:00Z",
+        "source_ip": "198.51.100.27",
+        "dest_ip": "192.168.1.10",
+        "user": "unknown",
+        "event_type": "network_connection",
+        "status": "failure",
+        "asset": "db-server-1",
+        "raw_message": "Port scan from 198.51.100.27 to 192.168.1.10:22 on db-server-1"
+      }
+    ]
+  },
+  {
+    "incident_id": "incident_3",
+    "label": "data_exfiltration",
+    "severity": "Critical",
+    "source_ip": "10.0.0.22",
+    "user": "bob",
+    "events": [
+      {
+        "timestamp": "2026-07-15T00:10:00Z",
+        "source_ip": "10.0.0.22",
+        "dest_ip": "198.51.100.100",
+        "user": "bob",
+        "event_type": "data_transfer",
+        "status": "success",
+        "asset": "db-server-1",
+        "raw_message": "Large data transfer from db-server-1 to external destination 198.51.100.100 by bob",
+        "bytes_transferred": 1100000000
+      }
+    ]
+  },
+  {
+    "incident_id": "incident_4",
+    "label": "privilege_escalation",
+    "severity": "High",
+    "source_ip": "203.0.113.83",
+    "user": "carol",
+    "events": [
+      {
+        "timestamp": "2026-07-15T00:15:00Z",
+        "source_ip": "203.0.113.83",
+        "dest_ip": "10.0.0.5",
+        "user": "carol",
+        "event_type": "privilege_change",
+        "status": "success",
+        "asset": "finance-app",
+        "raw_message": "User carol elevated privileges on finance-app"
+      }
+    ]
+  },
+  {
+    "incident_id": "incident_5",
+    "label": "benign",
+    "severity": "Low",
+    "source_ip": "192.168.1.110",
+    "user": "david",
+    "events": [
+      {
+        "timestamp": "2026-07-15T00:20:00Z",
+        "source_ip": "192.168.1.110",
+        "dest_ip": "10.0.0.6",
+        "user": "david",
+        "event_type": "login",
+        "status": "success",
+        "asset": "workstation-1",
+        "raw_message": "david performed login on workstation-1"
+      }
+    ]
+  }
+]
