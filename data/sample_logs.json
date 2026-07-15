@@ -1,779 +1,8 @@
 [
   {
-    "timestamp": "2026-07-15T05:10:28.932237",
-    "source_ip": "12.167.191.65",
-    "dest_ip": "192.168.1.186",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 12.167.191.65 to 192.168.1.186:80 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:10:39.932237",
-    "source_ip": "12.167.191.65",
-    "dest_ip": "192.168.1.31",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Port scan from 12.167.191.65 to 192.168.1.31:443 on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:11:05.932237",
-    "source_ip": "12.167.191.65",
-    "dest_ip": "192.168.1.189",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 12.167.191.65 to 192.168.1.189:443 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:11:06.932237",
-    "source_ip": "12.167.191.65",
-    "dest_ip": "192.168.1.50",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 12.167.191.65 to 192.168.1.50:8080 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:11:19.932237",
-    "source_ip": "12.167.191.65",
-    "dest_ip": "192.168.1.18",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 12.167.191.65 to 192.168.1.18:8080 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:11:20.932237",
-    "source_ip": "12.167.191.65",
-    "dest_ip": "192.168.1.9",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 12.167.191.65 to 192.168.1.9:443 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:12:25.932237",
-    "source_ip": "172.30.189.82",
-    "dest_ip": "10.200.33.216",
-    "user": "eve",
-    "event_type": "process_start",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "eve performed process_start on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:23.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "10.124.160.235",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:24.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "192.168.10.3",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:32.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "192.168.142.230",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:35.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "172.21.0.166",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:49.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "172.19.236.54",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:51.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "172.26.55.8",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:58.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "172.28.39.36",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:13:59.932237",
-    "source_ip": "14.42.63.20",
-    "dest_ip": "192.168.209.144",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 14.42.63.20"
-  },
-  {
-    "timestamp": "2026-07-15T05:14:33.932237",
-    "source_ip": "10.222.170.80",
-    "dest_ip": "192.168.166.125",
-    "user": "eve",
-    "event_type": "logout",
-    "status": "success",
-    "asset": "workstation-1",
-    "raw_message": "eve performed logout on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:16:03.932237",
-    "source_ip": "41.78.118.51",
-    "dest_ip": "192.168.1.150",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 41.78.118.51 to 192.168.1.150:443 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:16:06.932237",
-    "source_ip": "41.78.118.51",
-    "dest_ip": "192.168.1.138",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Port scan from 41.78.118.51 to 192.168.1.138:80 on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:16:13.932237",
-    "source_ip": "41.78.118.51",
-    "dest_ip": "192.168.1.35",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 41.78.118.51 to 192.168.1.35:3306 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:16:20.932237",
-    "source_ip": "41.78.118.51",
-    "dest_ip": "192.168.1.161",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Port scan from 41.78.118.51 to 192.168.1.161:443 on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:16:21.932237",
-    "source_ip": "41.78.118.51",
-    "dest_ip": "192.168.1.33",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 41.78.118.51 to 192.168.1.33:3306 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:16:29.932237",
-    "source_ip": "41.78.118.51",
-    "dest_ip": "192.168.1.196",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 41.78.118.51 to 192.168.1.196:3306 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:17:35.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "192.168.215.40",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:17:36.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "172.17.240.43",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:17:40.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "192.168.250.61",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:17:42.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "10.242.129.252",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:17:44.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "10.225.72.50",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:17:44.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "10.53.66.168",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:00.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "10.24.100.198",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:01.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "10.110.179.136",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:01.932237",
-    "source_ip": "142.66.216.167",
-    "dest_ip": "172.30.109.212",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for eve on finance-app from 142.66.216.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:20.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "192.168.54.245",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:22.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "172.17.148.105",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:24.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "192.168.218.252",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:24.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "192.168.195.59",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:27.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "192.168.119.208",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:28.932237",
-    "source_ip": "10.54.126.45",
-    "dest_ip": "172.17.13.143",
-    "user": "david",
-    "event_type": "logout",
-    "status": "success",
-    "asset": "workstation-1",
-    "raw_message": "david performed logout on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:32.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "172.26.164.39",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:18:39.932237",
-    "source_ip": "30.108.98.175",
-    "dest_ip": "172.22.109.35",
-    "user": "eve",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for eve on workstation-1 from 30.108.98.175"
-  },
-  {
-    "timestamp": "2026-07-15T05:19:47.932237",
-    "source_ip": "10.59.235.165",
-    "dest_ip": "10.41.16.53",
-    "user": "eve",
-    "event_type": "logout",
-    "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "eve performed logout on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:20:03.932237",
-    "source_ip": "10.194.85.246",
-    "dest_ip": "67.67.176.124",
-    "user": "eve",
-    "event_type": "data_transfer",
-    "status": "success",
-    "asset": "internal-file-server",
-    "raw_message": "Large data transfer from internal-file-server to external destination 67.67.176.124 by eve",
-    "bytes_transferred": 933274438
-  },
-  {
-    "timestamp": "2026-07-15T05:20:53.932237",
-    "source_ip": "172.30.106.201",
-    "dest_ip": "172.25.236.80",
-    "user": "charlie",
-    "event_type": "file_access",
-    "status": "success",
-    "asset": "internal-file-server",
-    "raw_message": "charlie performed file_access on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:22:06.932237",
-    "source_ip": "13.205.143.176",
-    "dest_ip": "192.168.1.42",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 13.205.143.176 to 192.168.1.42:22 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:22:09.932237",
-    "source_ip": "13.205.143.176",
-    "dest_ip": "192.168.1.216",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 13.205.143.176 to 192.168.1.216:443 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:22:12.932237",
-    "source_ip": "13.205.143.176",
-    "dest_ip": "192.168.1.49",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 13.205.143.176 to 192.168.1.49:3306 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:22:27.932237",
-    "source_ip": "13.205.143.176",
-    "dest_ip": "192.168.1.199",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 13.205.143.176 to 192.168.1.199:443 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:22:29.932237",
-    "source_ip": "13.205.143.176",
-    "dest_ip": "192.168.1.88",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 13.205.143.176 to 192.168.1.88:80 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:22:32.932237",
-    "source_ip": "13.205.143.176",
-    "dest_ip": "192.168.1.166",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 13.205.143.176 to 192.168.1.166:3306 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:23:13.932237",
-    "source_ip": "219.57.223.151",
-    "dest_ip": "192.168.1.137",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 219.57.223.151 to 192.168.1.137:3306 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:23:36.932237",
-    "source_ip": "219.57.223.151",
-    "dest_ip": "192.168.1.141",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 219.57.223.151 to 192.168.1.141:22 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:23:37.932237",
-    "source_ip": "219.57.223.151",
-    "dest_ip": "192.168.1.152",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Port scan from 219.57.223.151 to 192.168.1.152:3306 on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:23:40.932237",
-    "source_ip": "219.57.223.151",
-    "dest_ip": "192.168.1.214",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 219.57.223.151 to 192.168.1.214:3389 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:23:43.932237",
-    "source_ip": "219.57.223.151",
-    "dest_ip": "192.168.1.207",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 219.57.223.151 to 192.168.1.207:3389 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:23:48.932237",
-    "source_ip": "219.57.223.151",
-    "dest_ip": "192.168.1.113",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 219.57.223.151 to 192.168.1.113:443 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:24:56.932237",
-    "source_ip": "192.168.72.109",
-    "dest_ip": "172.29.15.60",
-    "user": "david",
-    "event_type": "network_connection",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "david performed network_connection on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:26:40.932237",
-    "source_ip": "172.28.94.132",
-    "dest_ip": "172.22.1.20",
-    "user": "bob",
-    "event_type": "login",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "bob performed login on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:27:41.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "172.26.8.211",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:27:52.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "172.25.25.81",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:28:02.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "192.168.6.87",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:28:07.932237",
-    "source_ip": "192.168.207.248",
-    "dest_ip": "172.29.102.253",
-    "user": "david",
-    "event_type": "logout",
-    "status": "success",
-    "asset": "internal-file-server",
-    "raw_message": "david performed logout on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:28:12.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "10.204.35.22",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:28:12.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "172.17.190.111",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:28:17.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "192.168.69.189",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:28:22.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "172.28.2.171",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:28:26.932237",
-    "source_ip": "185.26.40.183",
-    "dest_ip": "172.21.247.66",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Failed login attempt for charlie on internal-file-server from 185.26.40.183"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:11.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "172.20.49.231",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:11.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "10.84.141.37",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:18.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "10.129.49.241",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:18.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "172.31.127.177",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:42.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "192.168.240.68",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:44.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "192.168.147.104",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:48.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "192.168.216.60",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:30:51.932237",
-    "source_ip": "210.254.15.119",
-    "dest_ip": "172.30.140.216",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for charlie on workstation-1 from 210.254.15.119"
-  },
-  {
-    "timestamp": "2026-07-15T05:31:21.932237",
-    "source_ip": "172.28.218.148",
-    "dest_ip": "192.168.163.158",
-    "user": "alice",
-    "event_type": "file_access",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "alice performed file_access on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:32:59.932237",
-    "source_ip": "192.168.237.58",
-    "dest_ip": "10.50.4.173",
-    "user": "david",
-    "event_type": "login",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "david performed login on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:33:43.932237",
-    "source_ip": "10.166.47.25",
-    "dest_ip": "192.168.82.212",
-    "user": "david",
-    "event_type": "network_connection",
-    "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "david performed network_connection on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:34:10.932237",
-    "source_ip": "192.168.190.102",
-    "dest_ip": "192.168.146.91",
-    "user": "david",
-    "event_type": "process_start",
-    "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "david performed process_start on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:35:27.932237",
-    "source_ip": "10.117.189.14",
-    "dest_ip": "172.24.205.1",
+    "timestamp": "2026-07-15T07:11:17.983506",
+    "source_ip": "172.23.193.178",
+    "dest_ip": "172.30.239.173",
     "user": "bob",
     "event_type": "process_start",
     "status": "success",
@@ -781,1137 +10,1958 @@
     "raw_message": "bob performed process_start on web-server-1"
   },
   {
-    "timestamp": "2026-07-15T05:35:50.932237",
-    "source_ip": "117.208.10.30",
-    "dest_ip": "192.168.1.86",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
+    "timestamp": "2026-07-15T07:12:05.983506",
+    "source_ip": "10.103.205.51",
+    "dest_ip": "172.31.145.243",
+    "user": "david",
+    "event_type": "logout",
+    "status": "success",
     "asset": "internal-file-server",
-    "raw_message": "Port scan from 117.208.10.30 to 192.168.1.86:3389 on internal-file-server"
+    "raw_message": "david performed logout on internal-file-server"
   },
   {
-    "timestamp": "2026-07-15T05:35:55.932237",
-    "source_ip": "117.208.10.30",
-    "dest_ip": "192.168.1.181",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 117.208.10.30 to 192.168.1.181:8080 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:36:06.932237",
-    "source_ip": "117.208.10.30",
-    "dest_ip": "192.168.1.122",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 117.208.10.30 to 192.168.1.122:3306 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:36:13.932237",
-    "source_ip": "117.208.10.30",
-    "dest_ip": "192.168.1.56",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 117.208.10.30 to 192.168.1.56:22 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:36:31.932237",
-    "source_ip": "117.208.10.30",
-    "dest_ip": "192.168.1.173",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 117.208.10.30 to 192.168.1.173:443 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:36:35.932237",
-    "source_ip": "117.208.10.30",
-    "dest_ip": "192.168.1.118",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 117.208.10.30 to 192.168.1.118:3306 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:37:28.932237",
-    "source_ip": "179.167.109.237",
-    "dest_ip": "192.168.1.234",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 179.167.109.237 to 192.168.1.234:3306 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:37:38.932237",
-    "source_ip": "179.167.109.237",
-    "dest_ip": "192.168.1.186",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 179.167.109.237 to 192.168.1.186:443 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:37:44.932237",
-    "source_ip": "179.167.109.237",
-    "dest_ip": "192.168.1.143",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 179.167.109.237 to 192.168.1.143:3306 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:37:48.932237",
-    "source_ip": "172.25.28.66",
-    "dest_ip": "192.168.199.6",
-    "user": "eve",
+    "timestamp": "2026-07-15T07:13:25.983506",
+    "source_ip": "10.48.17.43",
+    "dest_ip": "172.18.132.153",
+    "user": "bob",
     "event_type": "file_access",
     "status": "success",
-    "asset": "finance-app",
-    "raw_message": "eve performed file_access on finance-app"
+    "asset": "web-server-1",
+    "raw_message": "bob performed file_access on web-server-1"
   },
   {
-    "timestamp": "2026-07-15T05:37:59.932237",
-    "source_ip": "179.167.109.237",
-    "dest_ip": "192.168.1.65",
+    "timestamp": "2026-07-15T07:14:29.983506",
+    "source_ip": "172.23.151.75",
+    "dest_ip": "172.28.16.229",
+    "user": "bob",
+    "event_type": "process_start",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "bob performed process_start on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:14:51.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "10.188.215.154",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:14:51.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "10.33.214.19",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:14:57.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "192.168.75.107",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:15:01.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "172.31.150.203",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:15:06.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "192.168.194.200",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:15:36.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "172.16.96.20",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:15:38.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "172.22.232.174",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:15:41.983506",
+    "source_ip": "216.100.23.109",
+    "dest_ip": "10.61.244.118",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 216.100.23.109"
+  },
+  {
+    "timestamp": "2026-07-15T07:16:24.983506",
+    "source_ip": "172.26.110.146",
+    "dest_ip": "192.168.6.153",
+    "user": "bob",
+    "event_type": "login",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "Successful login for bob on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:17:08.983506",
+    "source_ip": "172.31.139.107",
+    "dest_ip": "172.16.219.28",
+    "user": "bob",
+    "event_type": "login",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "Successful login for bob on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:18:24.983506",
+    "source_ip": "172.26.110.146",
+    "dest_ip": "192.168.168.159",
+    "user": "bob",
+    "event_type": "privilege_change",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "User bob elevated privileges on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:18:49.983506",
+    "source_ip": "192.168.147.214",
+    "dest_ip": "192.168.151.139",
+    "user": "alice",
+    "event_type": "login",
+    "status": "success",
+    "asset": "web-server-1",
+    "raw_message": "alice performed login on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:19:08.983506",
+    "source_ip": "172.31.139.107",
+    "dest_ip": "10.1.122.189",
+    "user": "bob",
+    "event_type": "privilege_change",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "User bob elevated privileges on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:20:07.983506",
+    "source_ip": "192.168.83.230",
+    "dest_ip": "192.168.15.158",
+    "user": "eve",
+    "event_type": "login",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "eve performed login on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:21:04.983506",
+    "source_ip": "172.28.124.207",
+    "dest_ip": "206.72.38.202",
+    "user": "david",
+    "event_type": "data_transfer",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "Large data transfer from db-server-1 to external destination 206.72.38.202 by david",
+    "bytes_transferred": 1127694763
+  },
+  {
+    "timestamp": "2026-07-15T07:22:38.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "10.177.31.223",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:22:51.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "192.168.159.67",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:23:11.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "192.168.223.233",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:23:20.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "192.168.243.47",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:23:21.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "172.27.50.171",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:23:22.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "192.168.64.22",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:23:27.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "172.23.81.206",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:23:27.983506",
+    "source_ip": "211.230.65.156",
+    "dest_ip": "192.168.211.221",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.230.65.156"
+  },
+  {
+    "timestamp": "2026-07-15T07:24:38.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "10.101.118.199",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:24:43.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "192.168.146.5",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:24:45.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "192.168.39.165",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:24:49.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "172.18.5.180",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:24:49.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "192.168.218.205",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:24:51.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "172.23.71.212",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:25:08.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "192.168.99.251",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:25:15.983506",
+    "source_ip": "169.207.10.202",
+    "dest_ip": "192.168.26.11",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Failed login attempt for david on finance-app from 169.207.10.202"
+  },
+  {
+    "timestamp": "2026-07-15T07:26:15.983506",
+    "source_ip": "135.58.205.238",
+    "dest_ip": "192.168.1.177",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Port scan from 135.58.205.238 to 192.168.1.177:80 on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:26:16.983506",
+    "source_ip": "135.58.205.238",
+    "dest_ip": "192.168.1.240",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "workstation-1",
-    "raw_message": "Port scan from 179.167.109.237 to 192.168.1.65:443 on workstation-1"
+    "raw_message": "Port scan from 135.58.205.238 to 192.168.1.240:22 on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T05:37:59.932237",
-    "source_ip": "179.167.109.237",
-    "dest_ip": "192.168.1.248",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 179.167.109.237 to 192.168.1.248:80 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:38:07.932237",
-    "source_ip": "179.167.109.237",
-    "dest_ip": "192.168.1.63",
+    "timestamp": "2026-07-15T07:26:17.983506",
+    "source_ip": "135.58.205.238",
+    "dest_ip": "192.168.1.246",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "internal-file-server",
-    "raw_message": "Port scan from 179.167.109.237 to 192.168.1.63:3389 on internal-file-server"
+    "raw_message": "Port scan from 135.58.205.238 to 192.168.1.246:443 on internal-file-server"
   },
   {
-    "timestamp": "2026-07-15T05:39:16.932237",
-    "source_ip": "172.25.37.174",
-    "dest_ip": "107.166.33.143",
-    "user": "bob",
-    "event_type": "data_transfer",
-    "status": "success",
+    "timestamp": "2026-07-15T07:26:23.983506",
+    "source_ip": "135.58.205.238",
+    "dest_ip": "192.168.1.98",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
     "asset": "db-server-1",
-    "raw_message": "Large data transfer from db-server-1 to external destination 107.166.33.143 by bob",
-    "bytes_transferred": 1199663845
+    "raw_message": "Port scan from 135.58.205.238 to 192.168.1.98:80 on db-server-1"
   },
   {
-    "timestamp": "2026-07-15T05:39:58.932237",
-    "source_ip": "192.168.74.3",
-    "dest_ip": "192.168.246.227",
+    "timestamp": "2026-07-15T07:26:30.983506",
+    "source_ip": "135.58.205.238",
+    "dest_ip": "192.168.1.141",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 135.58.205.238 to 192.168.1.141:443 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:26:35.983506",
+    "source_ip": "172.28.122.158",
+    "dest_ip": "10.143.55.225",
     "user": "alice",
+    "event_type": "file_access",
+    "status": "success",
+    "asset": "web-server-1",
+    "raw_message": "alice performed file_access on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:26:39.983506",
+    "source_ip": "135.58.205.238",
+    "dest_ip": "192.168.1.184",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 135.58.205.238 to 192.168.1.184:443 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:28:03.983506",
+    "source_ip": "172.21.57.221",
+    "dest_ip": "192.168.190.61",
+    "user": "eve",
+    "event_type": "network_connection",
+    "status": "success",
+    "asset": "workstation-1",
+    "raw_message": "eve performed network_connection on workstation-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:29:10.983506",
+    "source_ip": "131.27.157.161",
+    "dest_ip": "192.168.1.50",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Port scan from 131.27.157.161 to 192.168.1.50:3389 on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:29:12.983506",
+    "source_ip": "131.27.157.161",
+    "dest_ip": "192.168.1.66",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 131.27.157.161 to 192.168.1.66:3306 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:29:15.983506",
+    "source_ip": "131.27.157.161",
+    "dest_ip": "192.168.1.127",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 131.27.157.161 to 192.168.1.127:443 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:29:18.983506",
+    "source_ip": "131.27.157.161",
+    "dest_ip": "192.168.1.183",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Port scan from 131.27.157.161 to 192.168.1.183:3306 on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:29:35.983506",
+    "source_ip": "131.27.157.161",
+    "dest_ip": "192.168.1.169",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 131.27.157.161 to 192.168.1.169:80 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:29:49.983506",
+    "source_ip": "131.27.157.161",
+    "dest_ip": "192.168.1.213",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Port scan from 131.27.157.161 to 192.168.1.213:8080 on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:30:49.983506",
+    "source_ip": "192.168.1.36",
+    "dest_ip": "192.168.118.122",
+    "user": "david",
     "event_type": "logout",
     "status": "success",
     "asset": "workstation-1",
-    "raw_message": "alice performed logout on workstation-1"
+    "raw_message": "david performed logout on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T05:41:53.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "10.138.133.204",
+    "timestamp": "2026-07-15T07:31:26.983506",
+    "source_ip": "192.168.9.123",
+    "dest_ip": "192.168.213.204",
     "user": "bob",
+    "event_type": "process_start",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "bob performed process_start on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:32:38.983506",
+    "source_ip": "10.45.194.223",
+    "dest_ip": "10.7.228.102",
+    "user": "eve",
+    "event_type": "network_connection",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "eve performed network_connection on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:34:12.983506",
+    "source_ip": "10.19.52.153",
+    "dest_ip": "172.22.88.111",
+    "user": "eve",
+    "event_type": "login",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "Successful login for eve on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:35:02.983506",
+    "source_ip": "192.168.8.106",
+    "dest_ip": "172.28.101.22",
+    "user": "eve",
+    "event_type": "login",
+    "status": "success",
+    "asset": "web-server-1",
+    "raw_message": "Successful login for eve on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:36:03.983506",
+    "source_ip": "10.249.76.44",
+    "dest_ip": "10.251.181.203",
+    "user": "bob",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "bob performed logout on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:36:40.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "10.229.107.143",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:36:44.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "10.231.148.131",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:36:48.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "192.168.198.141",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:36:51.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "172.28.221.108",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:37:02.983506",
+    "source_ip": "192.168.8.106",
+    "dest_ip": "192.168.207.110",
+    "user": "eve",
+    "event_type": "privilege_change",
+    "status": "success",
+    "asset": "web-server-1",
+    "raw_message": "User eve elevated privileges on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:37:08.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "10.27.91.195",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:37:13.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "172.31.37.23",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:37:18.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "172.19.23.2",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:37:22.983506",
+    "source_ip": "85.234.39.238",
+    "dest_ip": "172.17.85.45",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for charlie on web-server-1 from 85.234.39.238"
+  },
+  {
+    "timestamp": "2026-07-15T07:37:24.983506",
+    "source_ip": "172.20.142.242",
+    "dest_ip": "10.99.11.2",
+    "user": "charlie",
+    "event_type": "file_access",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "charlie performed file_access on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:37:56.983506",
+    "source_ip": "10.135.210.6",
+    "dest_ip": "10.139.123.50",
+    "user": "alice",
+    "event_type": "login",
+    "status": "success",
+    "asset": "web-server-1",
+    "raw_message": "alice performed login on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:38:12.983506",
+    "source_ip": "10.19.52.153",
+    "dest_ip": "172.21.11.187",
+    "user": "eve",
+    "event_type": "privilege_change",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "User eve elevated privileges on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:38:22.983506",
+    "source_ip": "192.168.46.154",
+    "dest_ip": "172.22.0.8",
+    "user": "david",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "david performed logout on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:39:45.983506",
+    "source_ip": "172.28.23.91",
+    "dest_ip": "10.238.242.27",
+    "user": "alice",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "alice performed logout on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T07:41:07.983506",
+    "source_ip": "10.250.239.138",
+    "dest_ip": "192.10.39.217",
+    "user": "david",
+    "event_type": "data_transfer",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "Large data transfer from internal-file-server to external destination 192.10.39.217 by david",
+    "bytes_transferred": 980448308
+  },
+  {
+    "timestamp": "2026-07-15T07:41:56.983506",
+    "source_ip": "192.168.33.81",
+    "dest_ip": "192.168.93.54",
+    "user": "charlie",
+    "event_type": "file_access",
+    "status": "success",
+    "asset": "web-server-1",
+    "raw_message": "charlie performed file_access on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:43:28.983506",
+    "source_ip": "172.18.76.127",
+    "dest_ip": "172.25.16.209",
+    "user": "eve",
+    "event_type": "login",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "Successful login for eve on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:44:07.983506",
+    "source_ip": "10.153.152.177",
+    "dest_ip": "192.168.136.247",
+    "user": "bob",
+    "event_type": "process_start",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "bob performed process_start on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:03.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "172.27.28.169",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:14.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "10.249.164.77",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:16.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "10.56.84.186",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:28.983506",
+    "source_ip": "172.18.76.127",
+    "dest_ip": "10.163.44.238",
+    "user": "eve",
+    "event_type": "privilege_change",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "User eve elevated privileges on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:28.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "192.168.181.195",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:33.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "172.17.125.116",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:35.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "192.168.35.22",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:37.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "172.27.83.50",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:46:39.983506",
+    "source_ip": "51.251.164.180",
+    "dest_ip": "172.19.34.34",
+    "user": "eve",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Failed login attempt for eve on web-server-1 from 51.251.164.180"
+  },
+  {
+    "timestamp": "2026-07-15T07:47:31.983506",
+    "source_ip": "10.107.94.166",
+    "dest_ip": "198.217.48.196",
+    "user": "bob",
+    "event_type": "data_transfer",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "Large data transfer from internal-file-server to external destination 198.217.48.196 by bob",
+    "bytes_transferred": 927583442
+  },
+  {
+    "timestamp": "2026-07-15T07:49:12.983506",
+    "source_ip": "192.168.217.63",
+    "dest_ip": "74.96.215.218",
+    "user": "david",
+    "event_type": "data_transfer",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "Large data transfer from internal-file-server to external destination 74.96.215.218 by david",
+    "bytes_transferred": 823653049
+  },
+  {
+    "timestamp": "2026-07-15T07:49:48.983506",
+    "source_ip": "192.168.181.168",
+    "dest_ip": "192.168.207.114",
+    "user": "alice",
+    "event_type": "file_access",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "alice performed file_access on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T07:50:13.983506",
+    "source_ip": "10.111.29.223",
+    "dest_ip": "10.217.84.148",
+    "user": "charlie",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "workstation-1",
+    "raw_message": "charlie performed logout on workstation-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:51:03.983506",
+    "source_ip": "192.168.247.97",
+    "dest_ip": "10.174.93.125",
+    "user": "charlie",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "workstation-1",
+    "raw_message": "charlie performed logout on workstation-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:00.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "192.168.162.77",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:06.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "172.28.15.182",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:11.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "192.168.85.156",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:26.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "192.168.183.224",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:32.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "10.17.156.158",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:39.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "192.168.75.152",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:47.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "172.27.227.32",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:52:48.983506",
+    "source_ip": "214.206.141.38",
+    "dest_ip": "192.168.78.80",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for david on db-server-1 from 214.206.141.38"
+  },
+  {
+    "timestamp": "2026-07-15T07:53:00.983506",
+    "source_ip": "10.250.168.152",
+    "dest_ip": "202.90.201.64",
+    "user": "david",
+    "event_type": "data_transfer",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "Large data transfer from db-server-1 to external destination 202.90.201.64 by david",
+    "bytes_transferred": 849122143
+  },
+  {
+    "timestamp": "2026-07-15T07:54:23.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "192.168.242.230",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:54:30.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "192.168.31.171",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:54:47.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "192.168.132.175",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:54:52.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "192.168.13.216",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:54:53.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "192.168.66.32",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:55:01.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "192.168.74.104",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:55:04.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "10.2.62.149",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:55:05.983506",
+    "source_ip": "157.188.194.94",
+    "dest_ip": "10.21.189.4",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for david on internal-file-server from 157.188.194.94"
+  },
+  {
+    "timestamp": "2026-07-15T07:55:06.983506",
+    "source_ip": "192.168.33.136",
+    "dest_ip": "172.19.75.222",
+    "user": "charlie",
+    "event_type": "file_access",
+    "status": "success",
+    "asset": "workstation-1",
+    "raw_message": "charlie performed file_access on workstation-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:56:56.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "172.27.18.69",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:41:59.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "10.31.151.38",
-    "user": "bob",
+    "timestamp": "2026-07-15T07:56:59.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "10.152.128.226",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:42:06.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "10.254.15.31",
-    "user": "bob",
+    "timestamp": "2026-07-15T07:57:01.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "192.168.172.230",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:42:18.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "192.168.52.115",
-    "user": "bob",
+    "timestamp": "2026-07-15T07:57:09.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "10.75.187.27",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:42:20.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "192.168.67.43",
-    "user": "bob",
+    "timestamp": "2026-07-15T07:57:12.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "192.168.15.236",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:42:26.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "172.17.25.91",
-    "user": "bob",
+    "timestamp": "2026-07-15T07:57:22.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "192.168.136.137",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:42:29.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "10.158.40.241",
-    "user": "bob",
+    "timestamp": "2026-07-15T07:57:26.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "10.0.1.69",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:42:41.932237",
-    "source_ip": "217.101.109.237",
-    "dest_ip": "10.170.162.104",
-    "user": "bob",
+    "timestamp": "2026-07-15T07:57:29.983506",
+    "source_ip": "223.55.0.106",
+    "dest_ip": "10.191.180.139",
+    "user": "eve",
     "event_type": "login",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 217.101.109.237"
+    "raw_message": "Failed login attempt for eve on finance-app from 223.55.0.106"
   },
   {
-    "timestamp": "2026-07-15T05:42:54.932237",
-    "source_ip": "192.168.66.66",
-    "dest_ip": "187.195.234.11",
+    "timestamp": "2026-07-15T07:57:58.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "192.168.156.76",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:23.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "192.168.129.180",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:23.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "172.26.28.6",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:28.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "10.182.214.157",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:31.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "10.129.211.0",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:34.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "172.20.226.192",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:37.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "172.16.87.44",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:43.983506",
+    "source_ip": "10.6.81.235",
+    "dest_ip": "172.28.101.148",
+    "user": "charlie",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "charlie performed logout on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T07:58:45.983506",
+    "source_ip": "34.216.191.152",
+    "dest_ip": "172.26.123.238",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Failed login attempt for charlie on db-server-1 from 34.216.191.152"
+  },
+  {
+    "timestamp": "2026-07-15T07:59:58.983506",
+    "source_ip": "192.168.240.192",
+    "dest_ip": "172.23.180.246",
+    "user": "charlie",
+    "event_type": "file_access",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "charlie performed file_access on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:05.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "172.27.139.161",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:13.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "192.168.91.61",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:14.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "192.168.187.149",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:32.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "172.18.12.112",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:40.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "192.168.219.132",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:41.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "10.8.191.41",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:43.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "192.168.91.135",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:01:50.983506",
+    "source_ip": "107.251.188.171",
+    "dest_ip": "10.58.248.95",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for charlie on internal-file-server from 107.251.188.171"
+  },
+  {
+    "timestamp": "2026-07-15T08:02:55.983506",
+    "source_ip": "10.216.93.147",
+    "dest_ip": "172.83.61.84",
     "user": "eve",
     "event_type": "data_transfer",
     "status": "success",
     "asset": "db-server-1",
-    "raw_message": "Large data transfer from db-server-1 to external destination 187.195.234.11 by eve",
-    "bytes_transferred": 1099931218
+    "raw_message": "Large data transfer from db-server-1 to external destination 172.83.61.84 by eve",
+    "bytes_transferred": 1093293895
   },
   {
-    "timestamp": "2026-07-15T05:43:28.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "192.168.89.91",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:43:40.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "172.22.105.109",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:43:40.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "10.25.115.65",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:43:44.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "172.30.51.96",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:43:56.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "192.168.25.45",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:44:03.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "192.168.8.201",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:44:05.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "10.69.145.107",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:44:10.932237",
-    "source_ip": "195.180.12.167",
-    "dest_ip": "192.168.132.238",
-    "user": "alice",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Failed login attempt for alice on db-server-1 from 195.180.12.167"
-  },
-  {
-    "timestamp": "2026-07-15T05:45:19.932237",
-    "source_ip": "202.108.220.195",
-    "dest_ip": "192.168.1.211",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 202.108.220.195 to 192.168.1.211:3389 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:45:28.932237",
-    "source_ip": "202.108.220.195",
-    "dest_ip": "192.168.1.167",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Port scan from 202.108.220.195 to 192.168.1.167:443 on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:45:30.932237",
-    "source_ip": "202.108.220.195",
-    "dest_ip": "192.168.1.103",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 202.108.220.195 to 192.168.1.103:3306 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:45:49.932237",
-    "source_ip": "202.108.220.195",
-    "dest_ip": "192.168.1.124",
+    "timestamp": "2026-07-15T08:03:44.983506",
+    "source_ip": "214.100.10.170",
+    "dest_ip": "192.168.1.91",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "finance-app",
-    "raw_message": "Port scan from 202.108.220.195 to 192.168.1.124:443 on finance-app"
+    "raw_message": "Port scan from 214.100.10.170 to 192.168.1.91:3306 on finance-app"
   },
   {
-    "timestamp": "2026-07-15T05:45:58.932237",
-    "source_ip": "202.108.220.195",
-    "dest_ip": "192.168.1.144",
+    "timestamp": "2026-07-15T08:03:44.983506",
+    "source_ip": "214.100.10.170",
+    "dest_ip": "192.168.1.23",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "workstation-1",
-    "raw_message": "Port scan from 202.108.220.195 to 192.168.1.144:80 on workstation-1"
+    "raw_message": "Port scan from 214.100.10.170 to 192.168.1.23:3389 on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T05:46:09.932237",
-    "source_ip": "202.108.220.195",
-    "dest_ip": "192.168.1.170",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 202.108.220.195 to 192.168.1.170:22 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:46:20.932237",
-    "source_ip": "217.113.157.81",
-    "dest_ip": "192.168.1.38",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 217.113.157.81 to 192.168.1.38:80 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:46:28.932237",
-    "source_ip": "217.113.157.81",
-    "dest_ip": "192.168.1.191",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 217.113.157.81 to 192.168.1.191:443 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:46:35.932237",
-    "source_ip": "217.113.157.81",
-    "dest_ip": "192.168.1.61",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 217.113.157.81 to 192.168.1.61:3389 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:46:46.932237",
-    "source_ip": "217.113.157.81",
-    "dest_ip": "192.168.1.10",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 217.113.157.81 to 192.168.1.10:80 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:46:52.932237",
-    "source_ip": "217.113.157.81",
-    "dest_ip": "192.168.1.7",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 217.113.157.81 to 192.168.1.7:80 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:47:03.932237",
-    "source_ip": "217.113.157.81",
+    "timestamp": "2026-07-15T08:03:48.983506",
+    "source_ip": "214.100.10.170",
     "dest_ip": "192.168.1.9",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 217.113.157.81 to 192.168.1.9:3389 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:47:27.932237",
-    "source_ip": "172.23.112.176",
-    "dest_ip": "172.28.234.61",
-    "user": "david",
-    "event_type": "login",
-    "status": "success",
     "asset": "web-server-1",
-    "raw_message": "Successful login for david on web-server-1"
+    "raw_message": "Port scan from 214.100.10.170 to 192.168.1.9:8080 on web-server-1"
   },
   {
-    "timestamp": "2026-07-15T05:48:15.932237",
-    "source_ip": "10.166.207.55",
-    "dest_ip": "215.237.15.46",
-    "user": "david",
-    "event_type": "data_transfer",
-    "status": "success",
-    "asset": "finance-app",
-    "raw_message": "Large data transfer from finance-app to external destination 215.237.15.46 by david",
-    "bytes_transferred": 1121895692
-  },
-  {
-    "timestamp": "2026-07-15T05:49:27.932237",
-    "source_ip": "172.23.112.176",
-    "dest_ip": "192.168.214.39",
-    "user": "david",
-    "event_type": "privilege_change",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "User david elevated privileges on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:49:47.932237",
-    "source_ip": "73.88.167.163",
-    "dest_ip": "192.168.1.75",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 73.88.167.163 to 192.168.1.75:22 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:01.932237",
-    "source_ip": "73.88.167.163",
-    "dest_ip": "192.168.1.88",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 73.88.167.163 to 192.168.1.88:3389 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:02.932237",
-    "source_ip": "73.88.167.163",
-    "dest_ip": "192.168.1.109",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Port scan from 73.88.167.163 to 192.168.1.109:8080 on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:08.932237",
-    "source_ip": "73.88.167.163",
-    "dest_ip": "192.168.1.39",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 73.88.167.163 to 192.168.1.39:8080 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:11.932237",
-    "source_ip": "73.88.167.163",
-    "dest_ip": "192.168.1.59",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 73.88.167.163 to 192.168.1.59:443 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:13.932237",
-    "source_ip": "73.88.167.163",
-    "dest_ip": "192.168.1.52",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 73.88.167.163 to 192.168.1.52:22 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:32.932237",
-    "source_ip": "139.188.227.24",
-    "dest_ip": "192.168.1.32",
+    "timestamp": "2026-07-15T08:03:56.983506",
+    "source_ip": "214.100.10.170",
+    "dest_ip": "192.168.1.73",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "internal-file-server",
-    "raw_message": "Port scan from 139.188.227.24 to 192.168.1.32:8080 on internal-file-server"
+    "raw_message": "Port scan from 214.100.10.170 to 192.168.1.73:3306 on internal-file-server"
   },
   {
-    "timestamp": "2026-07-15T05:50:43.932237",
-    "source_ip": "139.188.227.24",
-    "dest_ip": "192.168.1.218",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 139.188.227.24 to 192.168.1.218:3389 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:50.932237",
-    "source_ip": "139.188.227.24",
-    "dest_ip": "192.168.1.88",
+    "timestamp": "2026-07-15T08:04:25.983506",
+    "source_ip": "214.100.10.170",
+    "dest_ip": "192.168.1.166",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "internal-file-server",
-    "raw_message": "Port scan from 139.188.227.24 to 192.168.1.88:3306 on internal-file-server"
+    "raw_message": "Port scan from 214.100.10.170 to 192.168.1.166:8080 on internal-file-server"
   },
   {
-    "timestamp": "2026-07-15T05:50:50.932237",
-    "source_ip": "139.188.227.24",
-    "dest_ip": "192.168.1.186",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 139.188.227.24 to 192.168.1.186:80 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:50:58.932237",
-    "source_ip": "139.188.227.24",
-    "dest_ip": "192.168.1.249",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 139.188.227.24 to 192.168.1.249:3389 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:51:12.932237",
-    "source_ip": "139.188.227.24",
-    "dest_ip": "192.168.1.212",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 139.188.227.24 to 192.168.1.212:80 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:27.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "172.20.218.4",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:28.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "192.168.209.104",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:33.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "10.225.252.253",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:39.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "10.173.157.92",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:45.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "172.21.189.35",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:47.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "172.25.174.254",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:51.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "172.21.141.75",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:52:57.932237",
-    "source_ip": "150.7.42.1",
-    "dest_ip": "172.23.133.15",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Failed login attempt for bob on workstation-1 from 150.7.42.1"
-  },
-  {
-    "timestamp": "2026-07-15T05:53:02.932237",
-    "source_ip": "10.233.56.67",
-    "dest_ip": "10.46.115.212",
-    "user": "alice",
-    "event_type": "file_access",
-    "status": "success",
-    "asset": "finance-app",
-    "raw_message": "alice performed file_access on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T05:54:41.932237",
-    "source_ip": "172.22.139.77",
-    "dest_ip": "10.98.25.89",
-    "user": "eve",
-    "event_type": "network_connection",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "eve performed network_connection on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:55:33.932237",
-    "source_ip": "192.168.171.86",
-    "dest_ip": "172.21.65.135",
-    "user": "eve",
-    "event_type": "login",
-    "status": "success",
-    "asset": "internal-file-server",
-    "raw_message": "eve performed login on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T05:55:51.932237",
-    "source_ip": "10.191.32.136",
-    "dest_ip": "10.30.140.225",
-    "user": "eve",
-    "event_type": "process_start",
-    "status": "success",
-    "asset": "web-server-1",
-    "raw_message": "eve performed process_start on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T05:56:10.932237",
-    "source_ip": "172.25.47.40",
-    "dest_ip": "150.39.53.131",
-    "user": "alice",
-    "event_type": "data_transfer",
-    "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "Large data transfer from db-server-1 to external destination 150.39.53.131 by alice",
-    "bytes_transferred": 961696443
-  },
-  {
-    "timestamp": "2026-07-15T05:57:05.932237",
-    "source_ip": "10.35.5.109",
-    "dest_ip": "19.89.244.36",
-    "user": "bob",
-    "event_type": "data_transfer",
-    "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "Large data transfer from db-server-1 to external destination 19.89.244.36 by bob",
-    "bytes_transferred": 958686285
-  },
-  {
-    "timestamp": "2026-07-15T05:58:55.932237",
-    "source_ip": "192.168.39.51",
-    "dest_ip": "192.168.138.160",
-    "user": "david",
-    "event_type": "process_start",
-    "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "david performed process_start on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:00:11.932237",
-    "source_ip": "219.55.133.160",
-    "dest_ip": "192.168.1.92",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 219.55.133.160 to 192.168.1.92:3306 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T06:00:19.932237",
-    "source_ip": "219.55.133.160",
-    "dest_ip": "192.168.1.72",
+    "timestamp": "2026-07-15T08:04:29.983506",
+    "source_ip": "214.100.10.170",
+    "dest_ip": "192.168.1.19",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "web-server-1",
-    "raw_message": "Port scan from 219.55.133.160 to 192.168.1.72:8080 on web-server-1"
+    "raw_message": "Port scan from 214.100.10.170 to 192.168.1.19:22 on web-server-1"
   },
   {
-    "timestamp": "2026-07-15T06:00:20.932237",
-    "source_ip": "219.55.133.160",
-    "dest_ip": "192.168.1.199",
-    "user": "unknown",
+    "timestamp": "2026-07-15T08:05:24.983506",
+    "source_ip": "172.21.90.30",
+    "dest_ip": "10.197.222.242",
+    "user": "charlie",
     "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 219.55.133.160 to 192.168.1.199:8080 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T06:00:27.932237",
-    "source_ip": "219.55.133.160",
-    "dest_ip": "192.168.1.239",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "internal-file-server",
-    "raw_message": "Port scan from 219.55.133.160 to 192.168.1.239:3389 on internal-file-server"
-  },
-  {
-    "timestamp": "2026-07-15T06:00:34.932237",
-    "source_ip": "219.55.133.160",
-    "dest_ip": "192.168.1.233",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 219.55.133.160 to 192.168.1.233:443 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T06:00:35.932237",
-    "source_ip": "219.55.133.160",
-    "dest_ip": "192.168.1.191",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 219.55.133.160 to 192.168.1.191:22 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:01:04.932237",
-    "source_ip": "10.141.1.238",
-    "dest_ip": "213.15.147.131",
-    "user": "eve",
-    "event_type": "data_transfer",
-    "status": "success",
-    "asset": "finance-app",
-    "raw_message": "Large data transfer from finance-app to external destination 213.15.147.131 by eve",
-    "bytes_transferred": 932420322
-  },
-  {
-    "timestamp": "2026-07-15T06:02:13.932237",
-    "source_ip": "172.21.239.56",
-    "dest_ip": "172.31.56.126",
-    "user": "eve",
-    "event_type": "file_access",
     "status": "success",
     "asset": "workstation-1",
-    "raw_message": "eve performed file_access on workstation-1"
+    "raw_message": "charlie performed network_connection on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T06:03:01.932237",
-    "source_ip": "219.30.25.155",
-    "dest_ip": "192.168.1.89",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 219.30.25.155 to 192.168.1.89:8080 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:03:09.932237",
-    "source_ip": "219.30.25.155",
-    "dest_ip": "192.168.1.118",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 219.30.25.155 to 192.168.1.118:3306 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:03:23.932237",
-    "source_ip": "219.30.25.155",
-    "dest_ip": "192.168.1.249",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 219.30.25.155 to 192.168.1.249:443 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T06:03:28.932237",
-    "source_ip": "172.24.165.17",
-    "dest_ip": "218.187.90.156",
+    "timestamp": "2026-07-15T08:06:35.983506",
+    "source_ip": "192.168.63.6",
+    "dest_ip": "139.228.92.179",
     "user": "charlie",
     "event_type": "data_transfer",
     "status": "success",
     "asset": "db-server-1",
-    "raw_message": "Large data transfer from db-server-1 to external destination 218.187.90.156 by charlie",
-    "bytes_transferred": 839152006
+    "raw_message": "Large data transfer from db-server-1 to external destination 139.228.92.179 by charlie",
+    "bytes_transferred": 994330877
   },
   {
-    "timestamp": "2026-07-15T06:03:29.932237",
-    "source_ip": "219.30.25.155",
-    "dest_ip": "192.168.1.109",
+    "timestamp": "2026-07-15T08:07:32.983506",
+    "source_ip": "115.224.215.233",
+    "dest_ip": "192.168.1.110",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "workstation-1",
-    "raw_message": "Port scan from 219.30.25.155 to 192.168.1.109:22 on workstation-1"
+    "raw_message": "Port scan from 115.224.215.233 to 192.168.1.110:80 on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T06:03:31.932237",
-    "source_ip": "219.30.25.155",
-    "dest_ip": "192.168.1.129",
+    "timestamp": "2026-07-15T08:07:40.983506",
+    "source_ip": "115.224.215.233",
+    "dest_ip": "192.168.1.238",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "workstation-1",
-    "raw_message": "Port scan from 219.30.25.155 to 192.168.1.129:3306 on workstation-1"
+    "raw_message": "Port scan from 115.224.215.233 to 192.168.1.238:22 on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T06:03:38.932237",
-    "source_ip": "219.30.25.155",
-    "dest_ip": "192.168.1.219",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 219.30.25.155 to 192.168.1.219:3306 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:04:48.932237",
-    "source_ip": "203.100.140.189",
-    "dest_ip": "192.168.1.243",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 203.100.140.189 to 192.168.1.243:22 on web-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:04:51.932237",
-    "source_ip": "203.100.140.189",
-    "dest_ip": "192.168.1.56",
+    "timestamp": "2026-07-15T08:07:44.983506",
+    "source_ip": "115.224.215.233",
+    "dest_ip": "192.168.1.26",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "db-server-1",
-    "raw_message": "Port scan from 203.100.140.189 to 192.168.1.56:443 on db-server-1"
+    "raw_message": "Port scan from 115.224.215.233 to 192.168.1.26:443 on db-server-1"
   },
   {
-    "timestamp": "2026-07-15T06:05:16.932237",
-    "source_ip": "203.100.140.189",
-    "dest_ip": "192.168.1.125",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 203.100.140.189 to 192.168.1.125:80 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T06:05:32.932237",
-    "source_ip": "203.100.140.189",
-    "dest_ip": "192.168.1.232",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "db-server-1",
-    "raw_message": "Port scan from 203.100.140.189 to 192.168.1.232:22 on db-server-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:05:33.932237",
-    "source_ip": "203.100.140.189",
-    "dest_ip": "192.168.1.236",
+    "timestamp": "2026-07-15T08:07:53.983506",
+    "source_ip": "115.224.215.233",
+    "dest_ip": "192.168.1.110",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "workstation-1",
-    "raw_message": "Port scan from 203.100.140.189 to 192.168.1.236:80 on workstation-1"
+    "raw_message": "Port scan from 115.224.215.233 to 192.168.1.110:3306 on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T06:05:40.932237",
-    "source_ip": "203.100.140.189",
-    "dest_ip": "192.168.1.105",
+    "timestamp": "2026-07-15T08:08:01.983506",
+    "source_ip": "115.224.215.233",
+    "dest_ip": "192.168.1.126",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "internal-file-server",
-    "raw_message": "Port scan from 203.100.140.189 to 192.168.1.105:3306 on internal-file-server"
+    "raw_message": "Port scan from 115.224.215.233 to 192.168.1.126:80 on internal-file-server"
   },
   {
-    "timestamp": "2026-07-15T06:06:23.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "192.168.97.129",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:06:34.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "172.27.104.174",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:06:34.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "10.132.69.145",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:06:39.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "192.168.211.220",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:06:50.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "172.23.78.234",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:06:52.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "192.168.43.187",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:06:55.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "172.27.19.54",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:07:05.932237",
-    "source_ip": "180.69.60.11",
-    "dest_ip": "172.26.68.175",
-    "user": "bob",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Failed login attempt for bob on finance-app from 180.69.60.11"
-  },
-  {
-    "timestamp": "2026-07-15T06:07:48.932237",
-    "source_ip": "10.17.208.145",
-    "dest_ip": "172.20.37.155",
-    "user": "eve",
-    "event_type": "login",
-    "status": "success",
-    "asset": "workstation-1",
-    "raw_message": "eve performed login on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:08:19.932237",
-    "source_ip": "105.195.164.230",
-    "dest_ip": "192.168.1.63",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 105.195.164.230 to 192.168.1.63:80 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T06:08:28.932237",
-    "source_ip": "105.195.164.230",
-    "dest_ip": "192.168.1.15",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "workstation-1",
-    "raw_message": "Port scan from 105.195.164.230 to 192.168.1.15:443 on workstation-1"
-  },
-  {
-    "timestamp": "2026-07-15T06:08:44.932237",
-    "source_ip": "105.195.164.230",
-    "dest_ip": "192.168.1.15",
-    "user": "unknown",
-    "event_type": "network_connection",
-    "status": "failure",
-    "asset": "finance-app",
-    "raw_message": "Port scan from 105.195.164.230 to 192.168.1.15:443 on finance-app"
-  },
-  {
-    "timestamp": "2026-07-15T06:08:55.932237",
-    "source_ip": "105.195.164.230",
-    "dest_ip": "192.168.1.155",
+    "timestamp": "2026-07-15T08:08:24.983506",
+    "source_ip": "115.224.215.233",
+    "dest_ip": "192.168.1.204",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "web-server-1",
-    "raw_message": "Port scan from 105.195.164.230 to 192.168.1.155:80 on web-server-1"
+    "raw_message": "Port scan from 115.224.215.233 to 192.168.1.204:3389 on web-server-1"
   },
   {
-    "timestamp": "2026-07-15T06:08:57.932237",
-    "source_ip": "105.195.164.230",
-    "dest_ip": "192.168.1.118",
+    "timestamp": "2026-07-15T08:09:13.983506",
+    "source_ip": "10.187.217.101",
+    "dest_ip": "192.168.22.51",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "success",
+    "asset": "db-server-1",
+    "raw_message": "charlie performed login on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T08:10:29.983506",
+    "source_ip": "9.159.79.199",
+    "dest_ip": "192.168.1.157",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
     "asset": "db-server-1",
-    "raw_message": "Port scan from 105.195.164.230 to 192.168.1.118:8080 on db-server-1"
+    "raw_message": "Port scan from 9.159.79.199 to 192.168.1.157:443 on db-server-1"
   },
   {
-    "timestamp": "2026-07-15T06:09:01.932237",
-    "source_ip": "105.195.164.230",
-    "dest_ip": "192.168.1.237",
+    "timestamp": "2026-07-15T08:10:37.983506",
+    "source_ip": "9.159.79.199",
+    "dest_ip": "192.168.1.143",
     "user": "unknown",
     "event_type": "network_connection",
     "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Port scan from 105.195.164.230 to 192.168.1.237:80 on web-server-1"
+    "asset": "db-server-1",
+    "raw_message": "Port scan from 9.159.79.199 to 192.168.1.143:3306 on db-server-1"
   },
   {
-    "timestamp": "2026-07-15T06:09:30.932237",
-    "source_ip": "10.61.114.51",
-    "dest_ip": "176.8.84.174",
+    "timestamp": "2026-07-15T08:11:07.983506",
+    "source_ip": "9.159.79.199",
+    "dest_ip": "192.168.1.47",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 9.159.79.199 to 192.168.1.47:8080 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T08:11:22.983506",
+    "source_ip": "9.159.79.199",
+    "dest_ip": "192.168.1.215",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 9.159.79.199 to 192.168.1.215:3306 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:11:23.983506",
+    "source_ip": "9.159.79.199",
+    "dest_ip": "192.168.1.254",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 9.159.79.199 to 192.168.1.254:80 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:11:23.983506",
+    "source_ip": "9.159.79.199",
+    "dest_ip": "192.168.1.187",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Port scan from 9.159.79.199 to 192.168.1.187:22 on workstation-1"
+  },
+  {
+    "timestamp": "2026-07-15T08:12:15.983506",
+    "source_ip": "192.168.112.135",
+    "dest_ip": "192.168.161.166",
+    "user": "david",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "david performed logout on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:13:50.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "172.23.129.81",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:13:56.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "192.168.103.237",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:13:57.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "10.84.86.179",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:14:08.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "192.168.64.204",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:14:09.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "10.100.181.211",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:14:27.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "192.168.139.248",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:14:29.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "10.175.177.212",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:14:38.983506",
+    "source_ip": "211.239.143.28",
+    "dest_ip": "172.25.195.77",
+    "user": "david",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for david on workstation-1 from 211.239.143.28"
+  },
+  {
+    "timestamp": "2026-07-15T08:15:32.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "192.168.79.248",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:15:34.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "10.56.57.212",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:15:40.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "192.168.136.115",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:15:51.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "10.56.173.148",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:15:51.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "172.28.68.35",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:15:53.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "10.209.112.93",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:16:12.983506",
+    "source_ip": "10.139.70.0",
+    "dest_ip": "10.135.129.114",
+    "user": "bob",
+    "event_type": "login",
+    "status": "success",
+    "asset": "finance-app",
+    "raw_message": "bob performed login on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T08:16:14.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "172.28.61.8",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:16:20.983506",
+    "source_ip": "7.164.70.75",
+    "dest_ip": "172.20.224.129",
+    "user": "charlie",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "workstation-1",
+    "raw_message": "Failed login attempt for charlie on workstation-1 from 7.164.70.75"
+  },
+  {
+    "timestamp": "2026-07-15T08:17:20.983506",
+    "source_ip": "10.241.108.196",
+    "dest_ip": "192.168.197.0",
+    "user": "eve",
+    "event_type": "network_connection",
+    "status": "success",
+    "asset": "workstation-1",
+    "raw_message": "eve performed network_connection on workstation-1"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:07.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "192.168.93.128",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:15.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "192.168.51.98",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:26.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "172.27.254.234",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:26.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "192.168.225.35",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:31.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "10.145.55.206",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:34.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "10.224.169.63",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:37.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "172.19.171.29",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:18:39.983506",
+    "source_ip": "175.138.207.221",
+    "dest_ip": "192.168.229.172",
+    "user": "bob",
+    "event_type": "login",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Failed login attempt for bob on internal-file-server from 175.138.207.221"
+  },
+  {
+    "timestamp": "2026-07-15T08:19:01.983506",
+    "source_ip": "10.67.3.153",
+    "dest_ip": "220.225.88.27",
     "user": "eve",
     "event_type": "data_transfer",
     "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "Large data transfer from db-server-1 to external destination 176.8.84.174 by eve",
-    "bytes_transferred": 856737366
+    "asset": "internal-file-server",
+    "raw_message": "Large data transfer from internal-file-server to external destination 220.225.88.27 by eve",
+    "bytes_transferred": 1069353418
   },
   {
-    "timestamp": "2026-07-15T06:10:52.932237",
-    "source_ip": "10.143.148.172",
-    "dest_ip": "10.105.27.188",
-    "user": "charlie",
-    "event_type": "network_connection",
+    "timestamp": "2026-07-15T08:19:21.983506",
+    "source_ip": "10.179.171.135",
+    "dest_ip": "23.191.5.60",
+    "user": "david",
+    "event_type": "data_transfer",
     "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "charlie performed network_connection on db-server-1"
+    "asset": "finance-app",
+    "raw_message": "Large data transfer from finance-app to external destination 23.191.5.60 by david",
+    "bytes_transferred": 1132852337
   },
   {
-    "timestamp": "2026-07-15T06:12:15.932237",
-    "source_ip": "10.53.116.205",
-    "dest_ip": "172.21.183.254",
+    "timestamp": "2026-07-15T08:21:15.983506",
+    "source_ip": "81.68.128.123",
+    "dest_ip": "192.168.1.37",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Port scan from 81.68.128.123 to 192.168.1.37:443 on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T08:21:43.983506",
+    "source_ip": "81.68.128.123",
+    "dest_ip": "192.168.1.185",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 81.68.128.123 to 192.168.1.185:3306 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:21:50.983506",
+    "source_ip": "81.68.128.123",
+    "dest_ip": "192.168.1.254",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Port scan from 81.68.128.123 to 192.168.1.254:8080 on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T08:21:55.983506",
+    "source_ip": "81.68.128.123",
+    "dest_ip": "192.168.1.100",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 81.68.128.123 to 192.168.1.100:22 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:22:02.983506",
+    "source_ip": "81.68.128.123",
+    "dest_ip": "192.168.1.26",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "db-server-1",
+    "raw_message": "Port scan from 81.68.128.123 to 192.168.1.26:443 on db-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T08:22:05.983506",
+    "source_ip": "81.68.128.123",
+    "dest_ip": "192.168.1.241",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 81.68.128.123 to 192.168.1.241:443 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T08:22:48.983506",
+    "source_ip": "144.46.196.6",
+    "dest_ip": "192.168.1.124",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 144.46.196.6 to 192.168.1.124:3306 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:23:02.983506",
+    "source_ip": "144.46.196.6",
+    "dest_ip": "192.168.1.179",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 144.46.196.6 to 192.168.1.179:443 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T08:23:08.983506",
+    "source_ip": "144.46.196.6",
+    "dest_ip": "192.168.1.2",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "web-server-1",
+    "raw_message": "Port scan from 144.46.196.6 to 192.168.1.2:8080 on web-server-1"
+  },
+  {
+    "timestamp": "2026-07-15T08:23:27.983506",
+    "source_ip": "144.46.196.6",
+    "dest_ip": "192.168.1.66",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "internal-file-server",
+    "raw_message": "Port scan from 144.46.196.6 to 192.168.1.66:8080 on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:23:28.983506",
+    "source_ip": "144.46.196.6",
+    "dest_ip": "192.168.1.148",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 144.46.196.6 to 192.168.1.148:3306 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T08:23:39.983506",
+    "source_ip": "144.46.196.6",
+    "dest_ip": "192.168.1.112",
+    "user": "unknown",
+    "event_type": "network_connection",
+    "status": "failure",
+    "asset": "finance-app",
+    "raw_message": "Port scan from 144.46.196.6 to 192.168.1.112:443 on finance-app"
+  },
+  {
+    "timestamp": "2026-07-15T08:24:45.983506",
+    "source_ip": "172.18.39.169",
+    "dest_ip": "10.194.178.216",
+    "user": "bob",
+    "event_type": "login",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "bob performed login on internal-file-server"
+  },
+  {
+    "timestamp": "2026-07-15T08:26:17.983506",
+    "source_ip": "192.168.169.23",
+    "dest_ip": "10.138.240.78",
     "user": "alice",
     "event_type": "logout",
     "status": "success",
@@ -1919,93 +1969,43 @@
     "raw_message": "alice performed logout on db-server-1"
   },
   {
-    "timestamp": "2026-07-15T06:13:29.932237",
-    "source_ip": "10.77.205.172",
-    "dest_ip": "10.197.167.55",
-    "user": "david",
-    "event_type": "file_access",
+    "timestamp": "2026-07-15T08:26:50.983506",
+    "source_ip": "192.168.179.139",
+    "dest_ip": "172.24.228.213",
+    "user": "bob",
+    "event_type": "logout",
     "status": "success",
-    "asset": "db-server-1",
-    "raw_message": "david performed file_access on db-server-1"
+    "asset": "workstation-1",
+    "raw_message": "bob performed logout on workstation-1"
   },
   {
-    "timestamp": "2026-07-15T06:15:00.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "192.168.130.143",
-    "user": "charlie",
+    "timestamp": "2026-07-15T08:27:41.983506",
+    "source_ip": "10.244.93.87",
+    "dest_ip": "10.179.74.161",
+    "user": "eve",
     "event_type": "login",
-    "status": "failure",
+    "status": "success",
     "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
+    "raw_message": "eve performed login on web-server-1"
   },
   {
-    "timestamp": "2026-07-15T06:15:05.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "172.18.139.152",
-    "user": "charlie",
+    "timestamp": "2026-07-15T08:29:03.983506",
+    "source_ip": "192.168.70.49",
+    "dest_ip": "10.238.223.110",
+    "user": "bob",
     "event_type": "login",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "bob performed login on internal-file-server"
   },
   {
-    "timestamp": "2026-07-15T06:15:20.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "172.30.125.140",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
-  },
-  {
-    "timestamp": "2026-07-15T06:15:21.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "10.140.237.218",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
-  },
-  {
-    "timestamp": "2026-07-15T06:15:23.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "172.29.89.72",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
-  },
-  {
-    "timestamp": "2026-07-15T06:15:23.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "192.168.26.185",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
-  },
-  {
-    "timestamp": "2026-07-15T06:15:35.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "172.24.65.145",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
-  },
-  {
-    "timestamp": "2026-07-15T06:15:39.932237",
-    "source_ip": "156.97.195.7",
-    "dest_ip": "192.168.190.69",
-    "user": "charlie",
-    "event_type": "login",
-    "status": "failure",
-    "asset": "web-server-1",
-    "raw_message": "Failed login attempt for charlie on web-server-1 from 156.97.195.7"
+    "timestamp": "2026-07-15T08:30:39.983506",
+    "source_ip": "192.168.247.231",
+    "dest_ip": "192.168.216.6",
+    "user": "david",
+    "event_type": "logout",
+    "status": "success",
+    "asset": "internal-file-server",
+    "raw_message": "david performed logout on internal-file-server"
   }
 ]

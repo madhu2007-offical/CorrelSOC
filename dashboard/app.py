@@ -1,5 +1,6 @@
 import json
 import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -44,8 +45,41 @@ def build_table(data):
 
 
 def get_severity_badge(severity: str) -> str:
-    color = SEVERITY_PALETTE.get(severity, "#4C5A6B")
-    return f'<span class="badge badge-{severity.lower()}">\n  <span class="badge-dot" style="background:{color}"></span>\n  <span>{severity}</span>\n</span>'
+    normalized = str(severity or "Unknown").strip()
+    normalized = normalized.title() if normalized.lower() != "unknown" else "Unknown"
+    color = SEVERITY_PALETTE.get(normalized, "#4C5A6B")
+    return (
+        f'<span class="badge badge-{normalized.lower()}">'
+        f'<span class="badge-dot" style="background:{color}"></span>'
+        f'<span>{normalized}</span>'
+        f'</span>'
+    )
+
+
+def render_triage_cards(triage_results: list[dict]) -> str:
+    cards = []
+    for incident in triage_results[:12]:
+        badge = get_severity_badge(incident.get("severity", "Unknown"))
+        cards.append(
+            """
+            <div class='incident-card'>
+              <div class='incident-header'>
+                <div><strong>{incident_id}</strong><div style='color:#94A3B8;font-size:0.92rem;margin-top:4px;'>ATT&CK {mitre_id}</div></div>
+                {badge}
+              </div>
+              <div class='incident-row'><span>Incident</span><span>{incident_id}</span></div>
+              <div class='incident-row'><span>Technique</span><span>{technique}</span></div>
+              <div class='incident-row'><span>Confidence</span><span>{confidence:.2f}</span></div>
+            </div>
+            """.format(
+                incident_id=incident.get("incident_id", "-"),
+                mitre_id=incident.get("mitre_attack_id", "-"),
+                technique=incident.get("mitre_technique_name", "-"),
+                confidence=float(incident.get("confidence", 0.0)),
+                badge=badge,
+            )
+        )
+    return "".join(cards)
 
 
 def svg_icon(name: str, color: str = "#2DD4BF") -> str:
@@ -133,6 +167,37 @@ def render_header():
             padding: 6px 10px;
             border-radius: 999px;
             background: rgba(226,232,240,0.03);
+        }
+        .incident-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .incident-card {
+            background: #11161D;
+            border: 1px solid #252B33;
+            border-radius: 12px;
+            padding: 18px;
+        }
+        .incident-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+        .incident-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 10px;
+            color: #CBD5E1;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.95rem;
+        }
+        .incident-row span:first-child {
+            color: #94A3B8;
         }
         .badge-dot {
             width: 10px;
@@ -257,9 +322,8 @@ st.markdown("<div class='grid-two'>", unsafe_allow_html=True)
 with st.container():
     st.markdown("<div class='soc-card'><h3>Incident triage feed</h3><div class='table-section'>", unsafe_allow_html=True)
     if triage_results:
-        display_triage = build_table(triage_results)[["incident_id", "mitre_attack_id", "mitre_technique_name", "severity", "confidence"]].head(12)
-        display_triage["severity"] = display_triage["severity"].apply(lambda v: get_severity_badge(v))
-        st.write(display_triage.to_html(index=False, classes='flat-table', escape=False), unsafe_allow_html=True)
+        triage_html = render_triage_cards(triage_results)
+        st.markdown(f"<div class='incident-grid'>{triage_html}</div>", unsafe_allow_html=True)
     else:
         st.markdown("<p>No triage results available.</p>", unsafe_allow_html=True)
     st.markdown("</div></div>", unsafe_allow_html=True)
