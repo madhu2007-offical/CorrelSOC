@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  correl_soc:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      - .:/app

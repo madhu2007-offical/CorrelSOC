@@ -124,6 +124,35 @@ CorrelSOC/
    streamlit run dashboard/app.py
    ```
 
+### Docker deployment
+
+1. Build the container:
+   ```bash
+   docker build -t correl-soc .
+   ```
+2. Run it:
+   ```bash
+   docker run -p 8501:8501 -e ANTHROPIC_API_KEY="sk-ant-your-key-here" correl-soc
+   ```
+
+### Docker Compose
+
+1. Create a local `.env` with:
+   ```env
+   ANTHROPIC_API_KEY=sk-ant-your-key-here
+   ```
+2. Run:
+   ```bash
+   docker compose up --build
+   ```
+
+### Windows one-click demo
+
+Run:
+```powershell
+run_demo.bat
+```
+
 ---
 
 ## Performance
