@@ -1,5 +1,6 @@
 <div align="center">
-  <img width="1536" height="548" alt="CorrelSOC banner" src="assets/banner.png" />
+  <img width="1536" height="548" alt="CorrelSOC banner" src="assets/<img width="1983" height="793" alt="banner" src="https://github.com/user-attachments/assets/a6750cf1-fceb-4123-863c-744549a81829" />
+" />
   <br/>
 
   ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
